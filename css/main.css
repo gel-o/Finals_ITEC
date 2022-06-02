@@ -7,11 +7,14 @@ body {
   background: #E3EDF2;
   margin: 0;
   font-family: 'Poppins';
+  position: relative;
 }
 
 .navbar {
   background: white;
   padding: 1em;
+  position: fixed;
+  width: 100%;
 }
 
 .navbar .logo {
@@ -41,6 +44,7 @@ ul {
 section {
   background-color: #E3EDF2;
   padding: 5em 2em;
+  height: 200vh;
 }
 
 .hero {
@@ -53,6 +57,7 @@ section {
 }
 .hero-img{
   height: 500px;
+  
 }
 
 section .container{
