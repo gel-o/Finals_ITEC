@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: #FF844B;
+}
+
+body {
+  background: #E3EDF2;
+  margin: 0;
+  font-family: 'Poppins';
+}
+
+.navbar {
+  background: white;
+  padding: 1em;
+}
+
+.navbar .logo {
+  text-decoration: none;
+  font-weight: bold;
+  color: #4E7D96;
+  font-size: 1.2em;
+}
+
+.navbar .logo span {
+  color: var(--primary-color);
+}
+
+.navbar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.navbar .mobile-menu {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+section {
+  background-color: #E3EDF2;
+  padding: 5em 2em;
+}
+
+.hero {
+  text-align: center;
+}
+
+.left-col{
+  text-align: left;
+  margin: 5em 0 5em 5em;
+}
+.hero-img{
+  
+  height: 500px;
+}
+
+section .container{
+  display: flex;
+}
+.left-col .subhead {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #9FC9DD;
+  letter-spacing: .3em;
+}
+
+.left-col h1 {
+  font-size: 2.5em;
+  line-height: 1.3em;
+  margin-top: .2em;
+}
+
+.left-col .primary-cta {
+  background: var(--primary-color);
+  color: white;
+  text-decoration: none;
+  padding: .6em 1.3em;
+  font-size: 1.4em;
+  border-radius: 5em;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.hero-img {
+  width: 70%;
+  margin-top: 3em;
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li a:hover {
+  font-weight: bold;
+}
+
+.navbar nav ul {
+  display: flex;
+}
+.navbar nav a {
+  color: black;
+  font-size: 1em;
+  padding: .1em 1em;
+}
+.navbar nav ul.primary-nav {
+  margin: 0;
+}
+
