@@ -26,14 +26,10 @@ body {
 }
 
 .navbar .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   place-content: space-between;
-}
-
-.navbar .mobile-menu {
-  cursor: pointer;
+  width: 80%;
+  margin: auto;
 }
 
 ul {
@@ -53,15 +49,16 @@ section {
 
 .left-col{
   text-align: left;
-  margin: 5em 0 5em 5em;
+  margin: 0;
 }
 .hero-img{
-  
   height: 500px;
 }
 
 section .container{
   display: flex;
+  margin: auto;
+  width: 80%;
 }
 .left-col .subhead {
   text-transform: uppercase;
@@ -74,6 +71,7 @@ section .container{
   font-size: 2.5em;
   line-height: 1.3em;
   margin-top: .2em;
+  color: #4E7D96;
 }
 
 .left-col .primary-cta {
