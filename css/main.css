@@ -86,8 +86,11 @@ section .container{
 }
 
 .hero-img {
-  width: 70%;
-  margin-top: 3em;
+  
+  position: relative;
+  bottom: 3em;
+  top: 2em;
+  width: 500px;
 }
 
 nav li a {
