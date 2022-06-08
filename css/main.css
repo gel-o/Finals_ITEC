@@ -94,8 +94,6 @@ section .container{
 }
 
 .hero-img {
-  
-  position: relative;
   width: 500px;
 }
 
