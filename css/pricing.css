@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+:root {
+  --primary-color: #FF844B;
+}
+
+body {
+    background: #E3EDF2;
+    margin: 0;
+    font-family: 'Poppins';
+    text-align: center;
+  }
+  
+  .navbar {
+    background: white;
+    padding: 1em;
+    position: fixed;
+    width: 100%;
+  }
+  
+  .navbar .logo {
+    text-decoration: none;
+    font-weight: bold;
+    color: #4E7D96;
+    font-size: 1.2em;
+  }
+  
+  .navbar .logo span {
+    color: var(--primary-color);
+  }
+  
+  .navbar .container {
+    display: flex;
+    place-content: space-between;
+    width: 80%;
+    margin: auto;
+  }
+  
+  ul li{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  nav li a {
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    font-weight: bold;
+  }
+  
+  .navbar nav ul {
+    display: flex;
+  }
+  .navbar nav a {
+    color: black;
+    font-size: 1em;
+    padding: .1em 1em;
+  }
+  .navbar nav ul.primary-nav {
+    margin: 0;
+  }
+
+  /*pricing*/
+
+section {
+      margin: 0;
+      
+  }
+
+section .container{
+      background-color: #9FC9DD;
+      padding-top: 20%;
+      padding: 15.5%;
+  }
+
+.container .freetrial{
+    width: 450px;
+    height: 550px;
+    background-color: #E3EDF2;
+    margin-right: 5em;
+    border-radius: 1em;
+  }
+.container .monthly{
+    width: 450px;
+    height: 550px;
+    background-color: #4E7D96;
+    margin-right: 5em;
+    border-radius: 1em;
+  }
+.container .lifetime{
+    width: 450px;
+    height: 550px;
+    background-color: #FF844B;
+    border-radius: 1em;
+  }
+
+.container {
+      display: flex;
+  }
+
+.container h3 {
+      font-weight: lighter;
+      font-size: 2em;
+      color: #9FC9DD;
+  }
+
+.container p{
+      padding: 0 1.2em 0 1.2em;
+      text-align: center;
+  }
+
+.container button{
+    background-color: #FF844B;
+    border-radius: 2em;
+    border: solid 5px #9FC9DD;
+    padding: 1em;
+    font-size: larger;
+    margin-top: 3.5em;
+    cursor: pointer;
+    font-weight: bolder;
+    color: #E3EDF2;
+}
+.container .freetrial p {
+    color: #7e7e7e;
+  }
+.container .monthly p {
+    color: #9FC9DD;
+  }
+.container .lifetime p {
+    color: #E3EDF2;
+  }
+
+.container button a{
+    text-decoration: none;
+    color: #E3EDF2;
+    padding: 1.5em;
+    
+}
