@@ -14,8 +14,6 @@ body {
   background: #E3EDF2;
   margin: 0;
   font-family: 'Poppins';
-  position: relative;
-  
 }
 
 .navbar {
@@ -71,6 +69,7 @@ nav li a:hover {
 
 section {
   padding: 5em 2em;
+  background-color: green;
 }
 
 .hero {
@@ -78,7 +77,9 @@ section {
 }
 
 
-section.features-section {
+section .container {
+  margin-top: 3em;
+  padding: 4em;
   background: #20272E;
   color: white;
 }
@@ -103,5 +104,6 @@ ul.features-list li:before {
   height: 20px;
   background-image: url("../images/bullet.svg");
   background-size: contain;
+  margin-top: .3em;
   margin-right: .5em;
 }
