@@ -72,25 +72,23 @@ section .container{
       background-color: #9FC9DD;
       padding-top: 20%;
       padding: 15.5%;
+      height: 350px;
   }
 
 .container .freetrial{
-    width: 450px;
-    height: 550px;
+    padding: 1em;
     background-color: #E3EDF2;
-    margin-right: 5em;
+    margin-right: 2em;
     border-radius: 1em;
   }
 .container .monthly{
-    width: 450px;
-    height: 550px;
+    padding: 1em;
     background-color: #4E7D96;
-    margin-right: 5em;
+    margin-right: 2em;
     border-radius: 1em;
   }
 .container .lifetime{
-    width: 450px;
-    height: 550px;
+    padding: 1em;
     background-color: #FF844B;
     border-radius: 1em;
   }
@@ -100,14 +98,19 @@ section .container{
   }
 
 .container h3 {
-      font-weight: lighter;
+      margin-left: 1em;
+      margin-right: 1em;
       font-size: 2em;
-      color: #9FC9DD;
+      background-color: whitesmoke;
+      border-radius: 4px;
+      padding: 0;
+      color: #FF844B;
   }
 
 .container p{
-      padding: 0 1.2em 0 1.2em;
+      padding: 0 1em;
       text-align: center;
+      margin-top: -1em
   }
 
 .container button{
@@ -116,10 +119,10 @@ section .container{
     border: solid 5px #9FC9DD;
     padding: 1em;
     font-size: larger;
-    margin-top: 3.5em;
     cursor: pointer;
     font-weight: bolder;
     color: #E3EDF2;
+    
 }
 .container .freetrial p {
     color: #7e7e7e;
@@ -133,7 +136,6 @@ section .container{
 
 .container button a{
     text-decoration: none;
-    color: #E3EDF2;
+    color: whitesmoke;
     padding: 1.5em;
-    
 }

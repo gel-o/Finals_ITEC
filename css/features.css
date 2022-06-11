@@ -68,8 +68,9 @@ nav li a:hover {
 }
 
 section {
-  padding: 5em 2em;
-  background-color: green;
+  background-color: #4E7D96;
+  display: flex;
+  padding: 8em;
 }
 
 .hero {
@@ -79,18 +80,18 @@ section {
 
 section .container {
   margin-top: 3em;
-  padding: 4em;
-  background: #20272E;
-  color: white;
+  padding: 2em;
+  
+  color: #E3EDF2;
 }
 
 ul.features-list {
-  margin: 0;
   padding-left: .1em;
+  
 }
 
 ul.features-list li {
-  font-size: 1.1em;
+  font-size: 1.3em;
   margin-bottom: 1em;
   margin-left: 15%;
   position: relative;
@@ -100,10 +101,16 @@ ul.features-list li:before {
   content: '';
   left: -2em;
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 25px;
+  height: 25px;
   background-image: url("../images/bullet.svg");
   background-size: contain;
   margin-top: .3em;
   margin-right: .5em;
+}
+
+.container img{
+  margin-top: -7em;
+  height: 500px;
+  width: 500px;
 }
