@@ -120,6 +120,11 @@ section .container{
 }
 
 .hero-img {
+<<<<<<< HEAD
+=======
+  
+  position: relative;
+>>>>>>> 8244299c50b47aa9687c4eb2a16df7f2b3a0c7a7
   width: 500px;
 }
 
