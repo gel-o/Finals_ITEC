@@ -73,10 +73,6 @@ section {
   padding: 8em;
 }
 
-.hero {
-  text-align: center;
-}
-
 
 section .container {
   margin-top: 3em;
@@ -113,4 +109,6 @@ ul.features-list li:before {
   margin-top: -7em;
   height: 500px;
   width: 500px;
+  border-radius: 15px;
+  box-shadow: #FF844B 9px 8px;
 }
