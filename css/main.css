@@ -123,8 +123,8 @@ section .container{
   width: 500px;
 }
 
-.perso{
-  position: relative;
+/*Contact*/
+.contact{
   width: 100%;
   height: 400px;
   background-color: #4E7D96;
@@ -134,15 +134,15 @@ section .container{
   justify-content: center;
 }
 
-.perso h5{
+.contact h5{
   font-size: 50px;
   color: #E3EDF2;
   margin-bottom: 30px;
   font-weight: bold;
 }
 
-.perso p{
-  color: #FF844B;
+.contact p{
+  color: #E3EDF2;
   font-size: 20px;
   width: 500px;
   text-align: center;
