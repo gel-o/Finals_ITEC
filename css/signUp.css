@@ -104,7 +104,7 @@ section .register img{
     flex-direction: column;
 }
 
-.left-col textarea{
+.left-col form input{
     margin-top: 3em;
     border-style: none;
     border-radius: 10px;
