@@ -70,14 +70,28 @@ nav li a:hover {
 }
 
 section {
-    background-color: #E3EDF2;
+    background-color: #32375c;
     padding: 5em 2em;
   }
 
+section .register{
+  display: flex;
+  margin: auto;
+  width: 80%;
+  
+}
+
+section .register img{
+  margin-left: 90px;
+}
+
 .left-col{
+  border-radius: 2em;
     background-color: #4E7D96;
     padding: 3em;
     text-align: center;
+    width: 40%;
+    height: 50%;
 }
 
 .left-col h1{
@@ -116,4 +130,15 @@ section {
   
 .hero-img {
     width: 500px;
+  }
+
+  footer p{
+    margin-block-end: 0;
+    margin-block-start: 0;
+    background-color:#0A0D25;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    padding: 2em;
+    color: #FF844B;
   }
