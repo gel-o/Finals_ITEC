@@ -68,3 +68,52 @@ nav li a:hover {
 .navbar nav ul.primary-nav {
   margin: 0;
 }
+
+section {
+    background-color: #E3EDF2;
+    padding: 5em 2em;
+  }
+
+.left-col{
+    background-color: #4E7D96;
+    padding: 3em;
+    text-align: center;
+}
+
+.left-col h1{
+    color: #E3EDF2;
+    font-size: 50px;
+}
+
+.left-col form{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-col textarea{
+    margin-top: 3em;
+    border-style: none;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+.hero-img{
+    height: 600px;
+  }
+
+
+.left-col .primary-cta {
+    margin-top: 3em;
+    background: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: .6em 1.3em;
+    font-size: 1.4em;
+    border-radius: 5em;
+    font-weight: bold;
+    display: inline-block;
+  }
+  
+.hero-img {
+    width: 500px;
+  }
